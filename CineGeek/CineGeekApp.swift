@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct CineGeekApp: App {
+struct TmdbMovieAppApp: App {
+
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

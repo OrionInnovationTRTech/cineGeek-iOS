@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ED2EB6BA2836DF6100D78EDE /* CineGeekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB6B92836DF6100D78EDE /* CineGeekApp.swift */; };
-		ED2EB6BC2836DF6100D78EDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EB6BB2836DF6100D78EDE /* ContentView.swift */; };
 		ED2EB6BE2836DF6300D78EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2EB6BD2836DF6300D78EDE /* Assets.xcassets */; };
 		ED2EB6C12836DF6300D78EDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2EB6C02836DF6300D78EDE /* Preview Assets.xcassets */; };
+		ED41E9352843C8F900B231CB /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9342843C8F900B231CB /* MovieListView.swift */; };
+		ED5BBB12283C2066004E1762 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5BBB11283C2066004E1762 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED2EB6B62836DF6100D78EDE /* CineGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2EB6B92836DF6100D78EDE /* CineGeekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineGeekApp.swift; sourceTree = "<group>"; };
-		ED2EB6BB2836DF6100D78EDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED2EB6BD2836DF6300D78EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2EB6C02836DF6300D78EDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED41E9342843C8F900B231CB /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		ED5BBB11283C2066004E1762 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		ED2EB6B82836DF6100D78EDE /* CineGeek */ = {
 			isa = PBXGroup;
 			children = (
+				ED5BBAFC283B9AF8004E1762 /* Service */,
+				ED5BBAFB283B9AE9004E1762 /* ViewModels */,
 				ED2EB6B92836DF6100D78EDE /* CineGeekApp.swift */,
-				ED2EB6BB2836DF6100D78EDE /* ContentView.swift */,
+				ED5BBB11283C2066004E1762 /* SplashScreen.swift */,
 				ED2EB6BD2836DF6300D78EDE /* Assets.xcassets */,
 				ED2EB6BF2836DF6300D78EDE /* Preview Content */,
 			);
@@ -65,6 +69,29 @@
 				ED2EB6C02836DF6300D78EDE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED41E9332843C89B00B231CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED41E9342843C8F900B231CB /* MovieListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED5BBAFB283B9AE9004E1762 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED41E9332843C89B00B231CB /* Views */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ED5BBAFC283B9AF8004E1762 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2EB6BC2836DF6100D78EDE /* ContentView.swift in Sources */,
+				ED5BBB12283C2066004E1762 /* SplashScreen.swift in Sources */,
 				ED2EB6BA2836DF6100D78EDE /* CineGeekApp.swift in Sources */,
+				ED41E9352843C8F900B231CB /* MovieListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
