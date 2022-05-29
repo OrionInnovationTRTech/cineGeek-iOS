@@ -16,6 +16,8 @@
 		ED41E93C2843CC7C00B231CB /* MoviePosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9382843CC7C00B231CB /* MoviePosterCard.swift */; };
 		ED41E93D2843CC7C00B231CB /* MovieBackdropCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9392843CC7C00B231CB /* MovieBackdropCarouselView.swift */; };
 		ED41E9412843CE0D00B231CB /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9402843CE0D00B231CB /* MovieDetailView.swift */; };
+		ED41E9442843CFC100B231CB /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9422843CFC100B231CB /* MovieService.swift */; };
+		ED41E9452843CFC100B231CB /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9432843CFC100B231CB /* MovieStore.swift */; };
 		ED5BBB12283C2066004E1762 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5BBB11283C2066004E1762 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		ED41E9382843CC7C00B231CB /* MoviePosterCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePosterCard.swift; sourceTree = "<group>"; };
 		ED41E9392843CC7C00B231CB /* MovieBackdropCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieBackdropCarouselView.swift; sourceTree = "<group>"; };
 		ED41E9402843CE0D00B231CB /* MovieDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		ED41E9422843CFC100B231CB /* MovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		ED41E9432843CFC100B231CB /* MovieStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
 		ED5BBB11283C2066004E1762 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +109,8 @@
 		ED5BBAFC283B9AF8004E1762 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				ED41E9422843CFC100B231CB /* MovieService.swift */,
+				ED41E9432843CFC100B231CB /* MovieStore.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -183,8 +189,10 @@
 				ED2EB6BA2836DF6100D78EDE /* CineGeekApp.swift in Sources */,
 				ED41E93D2843CC7C00B231CB /* MovieBackdropCarouselView.swift in Sources */,
 				ED41E93B2843CC7C00B231CB /* MovieBackdropCard.swift in Sources */,
+				ED41E9452843CFC100B231CB /* MovieStore.swift in Sources */,
 				ED41E93C2843CC7C00B231CB /* MoviePosterCard.swift in Sources */,
 				ED41E93A2843CC7C00B231CB /* MoviePosterCarouselView.swift in Sources */,
+				ED41E9442843CFC100B231CB /* MovieService.swift in Sources */,
 				ED41E9412843CE0D00B231CB /* MovieDetailView.swift in Sources */,
 				ED41E9352843C8F900B231CB /* MovieListView.swift in Sources */,
 			);
