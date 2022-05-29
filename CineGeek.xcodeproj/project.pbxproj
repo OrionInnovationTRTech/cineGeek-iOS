@@ -15,6 +15,7 @@
 		ED41E93B2843CC7C00B231CB /* MovieBackdropCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9372843CC7C00B231CB /* MovieBackdropCard.swift */; };
 		ED41E93C2843CC7C00B231CB /* MoviePosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9382843CC7C00B231CB /* MoviePosterCard.swift */; };
 		ED41E93D2843CC7C00B231CB /* MovieBackdropCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9392843CC7C00B231CB /* MovieBackdropCarouselView.swift */; };
+		ED41E9412843CE0D00B231CB /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED41E9402843CE0D00B231CB /* MovieDetailView.swift */; };
 		ED5BBB12283C2066004E1762 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5BBB11283C2066004E1762 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		ED41E9372843CC7C00B231CB /* MovieBackdropCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieBackdropCard.swift; sourceTree = "<group>"; };
 		ED41E9382843CC7C00B231CB /* MoviePosterCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePosterCard.swift; sourceTree = "<group>"; };
 		ED41E9392843CC7C00B231CB /* MovieBackdropCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieBackdropCarouselView.swift; sourceTree = "<group>"; };
+		ED41E9402843CE0D00B231CB /* MovieDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		ED5BBB11283C2066004E1762 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				ED41E9342843C8F900B231CB /* MovieListView.swift */,
+				ED41E9402843CE0D00B231CB /* MovieDetailView.swift */,
 				ED41E9372843CC7C00B231CB /* MovieBackdropCard.swift */,
 				ED41E9392843CC7C00B231CB /* MovieBackdropCarouselView.swift */,
 				ED41E9382843CC7C00B231CB /* MoviePosterCard.swift */,
@@ -182,6 +185,7 @@
 				ED41E93B2843CC7C00B231CB /* MovieBackdropCard.swift in Sources */,
 				ED41E93C2843CC7C00B231CB /* MoviePosterCard.swift in Sources */,
 				ED41E93A2843CC7C00B231CB /* MoviePosterCarouselView.swift in Sources */,
+				ED41E9412843CE0D00B231CB /* MovieDetailView.swift in Sources */,
 				ED41E9352843C8F900B231CB /* MovieListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
